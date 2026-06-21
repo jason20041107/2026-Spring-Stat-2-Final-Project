@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          BMIPercentile   R-squared:                       0.000
+Model:                            OLS   Adj. R-squared:                  0.000
+Method:                 Least Squares   F-statistic:                     1.953
+Date:                Sun, 21 Jun 2026   Prob (F-statistic):              0.162
+Time:                        19:26:22   Log-Likelihood:                -60929.
+No. Observations:               12874   AIC:                         1.219e+05
+Df Residuals:                   12872   BIC:                         1.219e+05
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept               65.2635      0.378    172.639      0.000      64.523      66.005
+PhysicalActivityDays    -0.1321      0.094     -1.398      0.162      -0.317       0.053
+==============================================================================
+Omnibus:                     1493.845   Durbin-Watson:                   1.924
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1014.876
+Skew:                          -0.575   Prob(JB):                    4.19e-221
+Kurtosis:                       2.246   Cond. No.                         6.48
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

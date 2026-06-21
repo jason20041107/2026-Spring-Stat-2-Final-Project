@@ -1,0 +1,8 @@
+﻿Variable,Coefficient,P_Value
+Intercept,64.88470695,0
+C(Sex)[T.Male],3.338841859,1.70E-11
+C(Grade)[T.11th grade],-1.573653104,0.021312975
+C(Grade)[T.12th grade],-2.305066829,0.000704464
+C(Grade)[T.9th grade],1.044400395,0.130566248
+C(Grade)[T.Other],0.73674941,0.943385577
+PhysicalActivityDays,-0.312925331,0.001247667

@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          BMIPercentile   R-squared:                       0.006
+Model:                            OLS   Adj. R-squared:                  0.005
+Method:                 Least Squares   F-statistic:                     12.76
+Date:                Sun, 21 Jun 2026   Prob (F-statistic):           2.01e-14
+Time:                        19:26:22   Log-Likelihood:                -60891.
+No. Observations:               12874   AIC:                         1.218e+05
+Df Residuals:                   12867   BIC:                         1.218e+05
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+Intercept                 64.8847      0.596    108.928      0.000      63.717      66.052
+C(Sex)[T.Male]             3.3388      0.496      6.735      0.000       2.367       4.311
+C(Grade)[T.11th grade]    -1.5737      0.683     -2.303      0.021      -2.913      -0.234
+C(Grade)[T.12th grade]    -2.3051      0.680     -3.389      0.001      -3.638      -0.972
+C(Grade)[T.9th grade]      1.0444      0.691      1.512      0.131      -0.310       2.398
+C(Grade)[T.Other]          0.7367     10.374      0.071      0.943     -19.598      21.072
+PhysicalActivityDays      -0.3129      0.097     -3.228      0.001      -0.503      -0.123
+==============================================================================
+Omnibus:                     1409.067   Durbin-Watson:                   1.931
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1019.784
+Skew:                          -0.586   Prob(JB):                    3.60e-222
+Kurtosis:                       2.273   Cond. No.                         177.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
