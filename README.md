@@ -34,3 +34,11 @@ The regression model is:
 
 ```text
 BMI Percentile ~ Physical Activity Days + Sex + Grade
+
+## Project Repository
+
+https://github.com/jason20041107/2026-Spring-Stat-2-Final-Project
+
+## Presentation Video
+
+https://youtu.be/wBdrnBOFSHc
